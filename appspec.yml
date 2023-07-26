@@ -1,8 +1,6 @@
 version: 0.0
 os: linux
-files:
-  - source: /templates
-    destination: /var/templates
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
